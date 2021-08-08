@@ -1,0 +1,52 @@
+body{
+    background-color: #EAC926;
+}
+
+header{
+    font-family: Roboto;
+}
+
+header div.lupa{
+   
+    margin: auto;
+    padding: 10px;
+}
+p.compra{
+
+font-size: 12px;
+   margin: 20px;
+    
+}
+
+
+header nav.men{
+    text-align:left;
+    display: flex-start;
+    font-size: 12px;
+    margin: 0%;
+}
+
+main h2{
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+
+main article.cafetera{
+    font-size: 18px;
+}
+main article.cafetera h5{
+    font-size: 16px;
+}
+
+main article.macbook{
+     font-size: 18px;
+}
+main article.cafetera h4{
+    font-size: 16px;
+}
+
+main .burger-menu{
+    
+ text-align: center;
+}
