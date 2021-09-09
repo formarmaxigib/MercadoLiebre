@@ -29,12 +29,22 @@ body .home{
   }
   
   main article {
-    margin: 0px 15px 10px 15px;
+    margin-top:15px;
     align-items: center;
     background-color: white;
     font-size: 18px;
-  
   }
+
+  main .box-vistas .img{
+    display: flex;
+    justify-content: center;
+  }
+main .box-ofertas .img{
+    display: flex;
+    justify-content: center;
+  }
+
+  
   main .box-vistas .descripcion-producto{
     border: 1px solid #ebebeb;
   }
