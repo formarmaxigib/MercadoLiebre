@@ -1,0 +1,55 @@
+footer {
+  padding: 8px;
+  margin: 8px;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+}
+footer div.card {
+  font-size: 2em;
+  color: #1259c3;
+}
+
+footer div.grift {
+  font-size: 2em;
+  margin: 10px;
+  color: #1259c3;
+}
+
+footer div.secure {
+  font-size: 2em;
+  margin: 10px;
+  color: #1259c3;
+}
+
+footer section.tarjeta {
+  font-size: 12px;
+}
+
+footer section {
+  text-align: center;
+  margin-top: 50px;
+  color: #666;
+}
+
+footer .seguridad {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #666;
+}
+
+footer .regalo {
+  font-size: 12px;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #666;
+}
+
+footer section.Copyright {
+  font-size: 12px;
+  text-align: left;
+  margin-top: 40px;
+  color: #666;
+}
