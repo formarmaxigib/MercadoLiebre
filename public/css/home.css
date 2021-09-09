@@ -1,0 +1,138 @@
+body .home{
+  display:flex;
+}
+
+/*Basado en tus ultimas vistas*/
+.basado {
+    color: #666;
+  }
+
+  
+  
+  .seccion-ofertas {
+    color: #666;
+  }
+  
+  main .box-vistas {
+    color: #ebebeb;
+    border: 1px solid;
+    display:flex;
+    flex-direction: column;
+     width: 100%;
+     margin: auto;
+  }
+  
+  main {
+    width: 90%;
+   
+    margin: auto;
+  }
+  
+  main article {
+    margin: 0px 15px 10px 15px;
+    align-items: center;
+    background-color: white;
+    font-size: 18px;
+  
+  }
+  main .box-vistas .descripcion-producto{
+    border: 1px solid #ebebeb;
+  }
+
+  main article .precio {
+    flex-grow: 0.3;
+    margin-left: 10px;
+    color: #666;
+  }
+  
+  main article .detalle {
+    display:none;
+  }
+  
+  main article .descuento {
+    flex-grow: 0.7;
+    margin-left: 10px;
+    color: green;
+  }
+  main i {
+    
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 5px;
+  }
+  
+  
+  main article.cafetera .detalle {
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+
+  main article.macbook .detalle {
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  main article.samsung .detalle {
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  main article.tv .detalle {
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  main article .label {
+    background-color: black;
+  }
+  
+  main article.macbook {
+    font-size: 18px;
+  }
+  
+  div.descripcion-producto {
+    color: #ebebeb;
+    border: 1px solid;
+  }
+  
+  main article.cafetera {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  main article.macbook {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  main article.samsung {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  main article.tv {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+
+
+
+
+  /*Versión desktop & tablet*/
+  @media(min-width:769px){
+    main article .detalle {
+        display:flex;
+        flex-direction: column;
+        margin-left: 10px;
+        color: #666;
+      }
+     main .box-vistas {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     }
+
+     main .box-ofertas{
+       box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     }
+
+  }
