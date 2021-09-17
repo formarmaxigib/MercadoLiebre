@@ -90,7 +90,7 @@ header nav.men ul li{
  
 }
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
 
   header p.compra{
     font-size:17px;
