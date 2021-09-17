@@ -1,66 +1,98 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body div.logo {
-  margin-left: 1em;
-  width: 140px;
-}
-
-body {
-  font-family: Roboto;
-  background-color: #ebebeb;
-}
-
-p.compra {
-  text-align: center;
-  font-size: 12px;
-  margin:0 auto;
-}
-
-nav.men {
-  display:none;
-}
-
-
 header {
-    width:100%;
-  background-color: #eac926;
+  background-color: var(--colorAmarillo);
+  padding: 30px 20px 20px 20px;
 }
 
-header div.barra-buscador {
-  padding: 10px;
-  font-size: 10px;
+header .box-logo-buscador {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+header .logo {
+  width: 48%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+header .barra-buscador {
+  width: 48%;
+}
+
+header .barra-buscador input {
+  width: 80%;
+}
+
+header p.compra {
+  align-items: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+header nav.men{
+  display: none;
+}
+
+header nav.men li{
+  list-style:none;
 }
 
 header .usuario {
   margin-top: 20px;
 }
 
-.burger-menu button {
+header .burger-menu button {
   font-size: 15px;
   padding: 8px;
   border-radius: 10%;
   color: white;
-  background-color: var(--colorAzul);
+  background-color: var(--colorCeleste);
 }
-.burger-menu{
-    text-align: center;
-    padding: 10px;
+.burger-menu {
+  text-align: center;
+  padding: 10px;
 }
 
 
-@media(min-width:361px){
-    .burger-menu button {
-        display:none;
-    }
-    nav.men {
-        display:flex;
-        flex-direction: column;
-        margin-left: 8px;
-        font-size: 12px;
-      }
+@media (min-width: 768px) {
+  .burger-menu button {
+    display: none;
+  }
+
+ header nav.men {
+   display:flex;
+   justify-content: space-between;
+   margin-top: 30px;
+  }
+header nav.men ul{
+  display:flex;
+}
+header nav.men ul li{
+  margin: 0 10px;
+  font-size:12px;
+}
+
+  header .logo {
+    width: 30%;
+  }
+  
+  header .barra-buscador {
     
+    width: 30%;
+  }
+
+  header p.compra {
+    width: 33%;
+    margin: 0;
+  }
+ 
+}
+
+@media (min-width: 768px){
+
+  header p.compra{
+    font-size:17px;
+  }
 }
