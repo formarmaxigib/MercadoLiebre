@@ -72,12 +72,19 @@
 
 /*Login*/
 
+.login .contenedor-registro .container-imput{
+    color: red;
+    background-color:red;
+} 
 .login div.container-imput{
   display:flex;
   justify-content: space-around;
     padding: 20px;
    margin: 0 auto;
+   
 }
+
+
 
 .login div.container-imput input{
     width: 90%;
@@ -86,4 +93,23 @@
     border-radius: 5px;
     padding: 10px;
     margin: 0 30px;
+}
+.btn-enviar{
+    width: 90%;
+    max-width: 370px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    background-color: var(--colorAzul)
+}
+
+.container-button-enviar{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
 }
