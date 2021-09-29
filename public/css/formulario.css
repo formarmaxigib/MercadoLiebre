@@ -1,0 +1,89 @@
+/* Contenedor caja general */
+.register-login .contenedor-registro{
+    width:90%;
+    margin: 0 auto;
+    max-width: 370px;
+}
+
+.register-login .contenedor-registro .container-imput{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+/* Casilleros input */
+.register-login .contenedor-registro .container-imput {
+    display: flex;
+    margin: 20px 0;
+}
+
+.register-login .contenedor-registro .container-perfil input{
+    margin: 0 20px;
+}
+
+/*Intereses*/
+.register-login .container-input-in {
+    padding:20px;
+}
+
+.register-login .container-input-in input{
+    margin: 0 10px;
+}
+.register-login .contenedor-registro .container-imput input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.register-login .contenedor-registro .container-imput button{
+    display:inline-flex;
+}
+
+
+.register-login .contenedor-registro .label-section{
+    color:black;
+    font-weight: 500;
+}
+
+
+.btn-rojo{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background-color:red;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-verde{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background-color:var(--colorVerde);
+    color: white;
+    cursor: pointer;
+}
+
+.container-button{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/*Login*/
+
+.login div.container-imput{
+  display:flex;
+  justify-content: space-around;
+    padding: 20px;
+   margin: 0 auto;
+}
+
+.login div.container-imput input{
+    width: 90%;
+    max-width: 370px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 30px;
+}

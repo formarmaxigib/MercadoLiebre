@@ -1,9 +1,11 @@
 .home main section{
   width:90%;
   margin: 0 auto;
+  
 }
- /*Caja contenedora principal */
- 
+main {
+  background-color:var(--colorGrisclaro)
+}
   
 /*Titulos de las secciones ultimas vistas y ofertas */
 .home h4{
