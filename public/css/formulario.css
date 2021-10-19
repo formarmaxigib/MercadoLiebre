@@ -108,8 +108,13 @@
     background-color: var(--colorAzul)
 }
 
+.btn-enviar:hover{
+    background-color: #0022AA;
+}
+
 .container-button-enviar{
     display:flex;
     justify-content: space-around;
     padding: 10px;
 }
+
