@@ -22,6 +22,10 @@
     margin: 0 20px;
 }
 
+.register-login .contenedor-registro .container-perfil{
+    padding: 10px;
+}
+
 /*Intereses*/
 .register-login .container-input-in {
     padding:20px;
