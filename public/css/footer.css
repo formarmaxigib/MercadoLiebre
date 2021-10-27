@@ -10,6 +10,7 @@ footer {
 footer div.card {
   font-size: 2em;
   color: #1259c3;
+  margin: 10px;
 }
 
 footer div.grift {
@@ -30,7 +31,7 @@ footer section.tarjeta {
 
 footer section {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   color: #666;
 }
 
@@ -52,4 +53,25 @@ footer section.Copyright {
   text-align: left;
   margin-top: 40px;
   color: #666;
+}
+
+@media (min-width: 1024px) {
+
+footer .box-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  footer .box-footer section{
+    width: 33%;
+    transition: color ease .3s;
+  }
+
+   footer .box-footer section i:hover{
+    color: var(--colorAzul);
+   }
+
+
+
 }

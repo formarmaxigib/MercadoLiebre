@@ -5,73 +5,113 @@
 main {
   background-color: var(--colorGrisclaro);
 }
-
-/*Titulos de las secciones ultimas vistas y ofertas */
-.home h4 {
-  color: #666;
-  font-size: 18px;
-}
-
-/* Color fondo main */
-.home main article {
-  margin: 10px 0;
-  background-color: white;
-}
-
-/*Caja con descripcion producto*/
-.home main .descripcion-producto {
-  position: relative;
-  border: 1px solid #ebebeb;
-  padding: 15px;
-}
-
-/*Caja de precios y descuenos*/
-.home main .precio-descuento {
-  display: flex;
-
-}
-
-/*texto Precio*/
-.home main article .precio {
-  flex-grow: 0.3;
-  color: #666;
-}
-/* texto Descuento*/
-.home main article .descuento {
-  flex-grow: 0.7;
-  color: var(--colorVerde);
-  font-size: 14px;
-}
-/*Texto detalle*/
-.home main article .detalle {
-  color: #666;
-  font-size: 16px;
-
-}
-  .home main{
-    background-color:var(--colorGrisclaro);
+@media (min-width: 320px) {
+  /*Titulos de las secciones ultimas vistas y ofertas */
+  .home h4 {
+    color: #666;
+    font-size: 18px;
   }
+
+  /* Color fondo main */
+  .home main article {
+    margin: 10px 0;
+    background-color: white;
+  }
+
+  /*Caja con descripcion producto*/
+  .home main .descripcion-producto {
+    position: relative;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+  }
+
+  /*Caja de precios y descuenos*/
+  .home main .precio-descuento {
+    display: flex;
+  }
+
+  /*texto Precio*/
+  .home main article .precio {
+    flex-grow: 0.3;
+    color: #666;
+  }
+  /* texto Descuento*/
+  .home main article .descuento {
+    flex-grow: 0.7;
+    color: var(--colorVerde);
+    font-size: 14px;
+  }
+  /*Texto detalle*/
+  .home main article .detalle {
+    color: #666;
+    font-size: 16px;
+  }
+
+  .home main {
+    background-color: var(--colorGrisclaro);
+  }
+
   /*Camioncito envio*/
   .home main i {
     color: green;
     border-radius: 50%;
     border: 1px solid var(--colorVerde);
     padding: 5px;
-    font-size:16px;
-    background-color:#fff;
+    font-size: 16px;
+    background-color: #fff;
     width: 30px;
     display: block;
     position: absolute;
     right: 20px;
     top: -15px;
   }
+  /*caja principal descripcion producto*/
+  .home .descripcion-producto {
+    border: 1px solid #ebebeb;
+  }
   
+}
 
+/*Versión tablet*/
+@media (min-width: 768px) {
+  .home main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
+  .home main h4 {
+    width: 100%;
+  }
 
+  .home main article {
+    width: 40%;
+  }
+}
 
+/* Versión desktop */
+@media (min-width: 1024px) {
+  .home main article {
+    width: 20%;
+  }
+}
 
+.home main article .detalle {
+  height: 0;
+  transition: all ease 0.3s;
+  overflow: hidden;
+  color: #666;
+  font-size: 16px;
+}
+.home main article:hover .detalle {
+  height: 20px;
+  margin-top: 10px;
+}
 
+.home main article:hover {
+  transition: all ease 0.3s;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
 
 /*Camioncito envio*/
 .home main i {
@@ -86,33 +126,10 @@ main {
   position: absolute;
   right: 20px;
   top: -15px;
-}
-/*caja principal descripcion producto*/
-.home .descripcion-producto {
-  border: 1px solid #ebebeb;
+  transition: all ease.3s;
 }
 
-/*Versión desktop & tablet*/
-@media (min-width: 768px) {
-  .home main section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .home main article {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
-
-  .home main h4 {
-    width: 100%;
-  }
-
-  .home main article {
-    width: 40%;
-  }
-}
-@media (min-width: 1024px) {
-  .home main article {
-    width: 20%;
-  }
+.home main i:hover {
+  box-shadow: var(--colorVerde);
+  transform: rotate(360deg);
 }
